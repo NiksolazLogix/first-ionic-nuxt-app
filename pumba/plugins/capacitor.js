@@ -1,6 +1,6 @@
-import { Plugins } from '@capacitor/core';
+import { Geolocation } from '@capacitor/geolocation';
 import Vue from 'vue';
-const { Geolocation } = Plugins;
+
 
 export default function ({ app }, inject) {
     inject('CapacitorGeolocation', Geolocation);

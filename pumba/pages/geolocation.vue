@@ -8,13 +8,12 @@
     <div>
         <h1>Geolocation</h1>
         <p>Your location is:</p>
-        <!-- <p>
+        <p>
         Latitude: <span v-if="loc">{{ loc.coords.latitude }}</span>
         </p>
         <p>
         Longitude: <span v-if="loc">{{ loc.coords.longitude }}</span>
-        </p> -->
-        <p>{{loc}}</p>
+        </p>
         <input type="button" @click="getCurrentPosition()" value="Get Current Location" />
     </div>
     <ion-content class="content">
@@ -53,6 +52,8 @@ export default {
         const coordinates = await this.$CapacitorGeolocation.getCurrentPosition();
 
         this.loc = coordinates;
+
+        console.log(this.loc)
     }
   }
 };
