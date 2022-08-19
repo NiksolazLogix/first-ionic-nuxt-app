@@ -16,6 +16,11 @@
               <ion-label>Go to Home</ion-label>
             </ion-tab-button>
           </nuxt-link>
+          <nuxt-link to="/geolocation">
+            <ion-tab-button>
+              <ion-label>Go to Geolocation</ion-label>
+            </ion-tab-button>
+          </nuxt-link>
         </ion-card-content>
       </ion-card>
     </ion-content>

@@ -1,0 +1,6 @@
+{
+  "appId": "com.pumba.app",
+  "appName": "pumba",
+  "webDir": "dist",
+  "bundledWebRuntime": false
+}
